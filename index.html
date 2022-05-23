@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon de Belleza</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Animacion -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Slider 
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    -->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="navbar">
+            <div class="logo">
+                <img src="img/logo.svg">
+            </div>
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#" class="nav-link active">Inicio</a></li>
+                    <li><a href="#about" class="nav-link">Acerca de</a></li>
+                    <li><a href="#services" class="nav-link">servicios</a></li>
+                    <li><a href="#package" class="nav-link">paquetes</a></li>
+                    <li><a href="#gallery" class="nav-link">galería</a></li>
+                    <li><a href="#contact" class="nav-link">contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Start Home Section -->
+    <section class="home">
+        <div class="container">
+            <div class="home-img">
+                <img src="img/home-img.png">
+            </div>
+            <div class="home-content">
+                <h1 class="animate__animated animate__slideInDown">Tu gran día<br><span>con estilo</span></h1>
+                <p class="animate__animated animate__slideInDown">Ven a ver nuestro rincón del maquillaje y aprovecha para agendar tu cita.</p>
+                <a href="https://api.whatsapp.com/send?phone=573120000000" class="btn btn-outline animate__animated animate__backInRight">
+                    <i class="fab fa-whatsapp"></i>
+                    Agenda tu cita ahora
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- End Home Section -->
+    
+    <!-- Start About Section -->
+        <section class="about" id="about">
+            <div class="container">
+            <div class="section-title">
+                <h1 class="animate__animated  animate__pulse">Nuestra historia</h1>
+                <span>Salón de belleza</span>
+            </div>
+            <div class="about-detail">
+                <div class="about-detail-content">
+                    <div class="about-img">
+                        <img src="img/about-img.jpg">
+                    </div>
+                        <div class="about-description">
+                            <p>LH Makeup es el lugar perfecto para ti que estas apunto de casarte y deseas verte expectacular en tu gran día, para nosotros es sumamente importante tu comodidad.</p>
+                            <p>Tenemos más de 6 años de experiencia prparando novias para sus bodas, tambien contamos con y un personal profesionalmente capacitado para hacer un trabajo de calidad del cual te sientas bien</p>
+                            <p>Trabajamos cada dia en ser un referente cuando a belleza para tu boda se refiere.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End About Section -->
+        <!-- Start Services Section -->
+            <section class="services" id="services">
+            <div class="services-content">
+                <div class="section-title">
+                    <h1>Servicios</h1>
+                    <span>Que hacemos</span>
+                </div>
+                <div class="services-content-description">
+                    <div class="box">
+                        <div class="inner">
+                            <img src="img/services/manicure.png">
+                            <p>manicura</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="img/services/pedicure.png">
+                            <p>padicura</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="img/services/makeup.png">
+                        <p>maquillaje</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inner">
+                        <img src="img/services/hairstyle.png">
+                        <p>Peinados</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inner">
+                        <img src="img/services/haircut.png">
+                        <p>Cortes</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inner">
+                        <img src="img/services/eyebrow design.png">
+                        <p>Diseño de cejas</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inner">
+                        <img src="img/services/waxing.png">
+                        <p>depilación</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inner">
+                        <img src="img/services/skin cleansing.png">
+                        <p>limpieza de la piel</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Services Section -->
+    <!-- Start Package Section -->
+        <section class="package" id="package">
+            <div class="section-title">
+                <h1>paquetes promocionales</h1>
+                <span>para el dia de tu novia</span>
+            </div>
+                
+                <div class="package-cards">
+                <div class="card">
+                    <div class="card-title">
+                        <h1>Bronce</h1>
+                    </div>
+                    <div class="card-items">
+                        <div class="item">
+                            <i class="far fa-check-square check-icon"></i>
+                            <p>Peinado</p>
+                        </div>
+                        <div class="item">
+                            <i class="far fa-check-square check-icon"></i>
+                            <p>Maquillaje</p>
+                        </div>
+                        <div class="item">
+                            <i class="far fa-check-square check-icon"></i>
+                            <p>Uñas<span>(en aclirico)</span></p>
+                        </div>
+                        <div class="item">
+                            <i class="far fa-times-square x-icon"></i>
+                            <p class="not">Depilación</span></p>
+                        </div>
+                        <div class="item">
+                            <i class="far fa-times-square x-icon"></i>
+                            <p class="not">Diseño de cejas</span></p>
+                        </div>
+                        <div class="item">
+                            <i class="far fa-times-square x-icon"></i>
+                            <p class="not">Limpieza de la piel</span></p>
+                        </div>
+                        <div class="item">
+                            <i class="far fa-times-square x-icon"></i>
+                            <p class="not">Habitación nupcial reservada</span></p>
+                        </div>
+                        <div class="item">
+                            <i class="far fa-times-square x-icon"></i>
+                            <p class="not">Mesa de frutas</span></p>
+                        </div>
+                        <button class="btn">Quiero esto</button>
+                    </div>             
+                </div>
+                <div class="card">
+                <div class="card-title">
+                    <h1>Plata</h1>
+                </div>
+                <div class="card-items">
+                    <div class="item">
+                        <i class="far fa-check-square check-icon"></i>
+                        <p>Peinado</p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-check-square check-icon"></i>
+                        <p>Maquillaje</p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-check-square check-icon"></i>
+                        <p>Uñas<span>(en aclirico)</span></p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-check-square check-icon"></i>
+                        <p>Depilación</span></p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-check-square check-icon"></i>
+                        <p>Diseño de cejas</span></p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-check-square check-icon"></i>
+                        <p>Limpieza de la piel</span></p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-times-square x-icon"></i>
+                        <p class="not">Habitación nupcial reservada</span></p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-times-square x-icon"></i>
+                        <p class="not">Mesa de frutas</span></p>
+                    </div>
+                    <button class="btn">quiero esto</button>
+                </div>             
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <h1>Oro</h1>
+                </div>
+                <div class="card-items">
+                    <div class="item">
+                        <i class="far fa-check-square check-icon"></i>
+                        <p>Peinado</p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-check-square check-icon"></i>
+                        <p>Maquillaje</p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-check-square check-icon"></i>
+                        <p>Uñas<span>(en aclirico)</span></p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-check-square check-icon"></i>
+                        <p>Depilación</span></p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-check-square check-icon"></i>
+                        <p>Diseño de cejas</span></p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-times-square x-icon"></i>
+                        <p class="not">Limpieza de la piel</span></p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-check-square check-icon"></i>
+                        <p>Habitación nupcial reservada</span></p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-times-square x-icon"></i>
+                        <p class="not">Mesa de frutas</span></p>
+                    </div>
+                    <button class="btn">quiero esto</button>
+                </div>             
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <h1>Diamante</h1>
+                </div>
+                <div class="card-items">
+                    <div class="item">
+                        <i class="far fa-check-square check-icon"></i>
+                        <p>Peinado</p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-check-square check-icon"></i>
+                        <p>Maquillaje</p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-check-square check-icon"></i>
+                        <p>Uñas<span>(ten aclirico)</span></p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-check-square check-icon"></i>
+                        <p>Depilación</span></p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-check-square check-icon"></i>
+                        <p>Diseño de cejas</span></p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-check-square check-icon"></i>
+                        <p>Limpieza de la piel</span></p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-check-square check-icon"></i>
+                        <p>Habitación nupcial reservada</span></p>
+                    </div>
+                    <div class="item">
+                        <i class="far fa-check-square check-icon"></i>
+                        <p>Mesa de frutas</span></p>
+                    </div>
+                    <button class="btn">Quiero esto</button>
+                </div>             
+            </div>
+        </div>
+    </section>
+    <!-- End Package Section -->
+    <!-- Start Gallery Section -->
+        <section class="gallery" id="gallery">
+            <div class="gallery-content">
+                <div class="section-title">
+                    <h1>Galería</h1>
+                    <span>Una pequeña muestra</span>
+                </div>
+                <div class="gallery-list-img">
+                    <div class="gallery-img">
+                        <img src="img/img-insta/photo1.png">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="img/img-insta/photo2.png">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="img/img-insta/photo3.png">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="img/img-insta/photo4.png">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="img/img-insta/photo5.png">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="img/img-insta/photo6.png">
+                    </div>
+                    <div class="gallery-img">
+                    <img src="img/img-insta/photo7.png">
+                </div>
+                <div class="gallery-img">
+                    <img src="img/img-insta/photo8.png">
+                </div>
+            </div>
+            <button class="btn">Ver mas</button>
+        </div>
+    </section>
+    <!-- End Gallery Section -->
+    <!-- Start Testimonials Section -->
+
+    
+    
+    <section class="testimonials">
+        <div class="testimonials-content">
+                <div class="section-title">
+                    <h1>Testimonios</h1>
+                    <span>Mira lo que dicen nuestros clientes</span>
+                </div>
+                <div class="testimonials-card">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">                 
+                          <div class="swiper-slide">
+                            <div class="testimonialBox">
+                                <img class="comilla" src="./img/comilla.svg" />
+                                <div class="content">
+                                    <p>Me encantó como me arreglaron para mi fiesta de graduación estu espectacular, 100% recomendados.</p>
+                                    <div class="details">
+                                        <div class="imgBox">
+                                            <img src="./img/testimonials/testimonials1.jpg" alt="imagen perfil" loading="lazy">
+                                        </div>
+                                        <h3>Maria<br> <span class="span">Psicologa</span></h3>
+                                    </div>
+                                </div> 
+                            </div>
+                          </div><!-- FIN -->
+                          
+                          <div class="swiper-slide">
+                            <div class="testimonialBox">
+                                <img class="comilla" src="./img/comilla.svg" />
+                                <div class="content">
+                                    <p>Me casé hace un mes y siento que fue la mejor decisión haber solicitado us servicios, son muy amables y ademas hacen un trabajo de calidad.</p>
+                                    <div class="details">
+                                        <div class="imgBox">
+                                            <img src="./img/testimonials/testimonials2.png" alt="imagen perfil" loading="lazy">
+                                        </div>
+                                        <h3>Ximena<br> <span class="span">Diseñadora</span></h3>
+                                    </div>
+                                </div> 
+                            </div>
+                          </div><!-- FIN -->
+                          
+                          <div class="swiper-slide">
+                            <div class="testimonialBox">
+                                <img class="comilla" src="./img/comilla.svg" />
+                                <div class="content">
+                                    <p>Llevé a mi esposa con ellos para nuestra boda y no me arrepiento de haber hecho esa elección, simplemente fue excelente. </p>
+                                    <div class="details">
+                                        <div class="imgBox">
+                                            <img src="./img/testimonials/testimonials3.png" alt="imagen perfil" loading="lazy">
+                                        </div>
+                                        <h3>Jon Doe <br> <span class="span">Programador</span></h3>
+                                    </div>
+                                </div> 
+                            </div>
+                          </div><!-- FIN -->
+                          
+                          <div class="swiper-slide">
+                            <div class="testimonialBox">
+                                <img class="comilla" src="./img/comilla.svg" />
+                                <div class="content">
+                                    <p>Estoy muy agradecida con LH Makeup porque superaron mis expectativas para el mi día de boda me encantó todo, super recomendados. </p>
+                                    <div class="details">
+                                        <div class="imgBox">
+                                            <img src="./img/testimonials/testimonials4.jpg" alt="imagen perfil" loading="lazy">
+                                        </div>
+                                        <h3>Diana<br> <span class="span">Freelancer</span></h3>
+                                    </div>
+                                </div> 
+                            </div>
+                          </div><!-- FIN -->
+
+                        </div>
+                      </div>
+                </div>
+        </div>
+    </section>
+    
+    <!-- End Testimonials Section -->
+    <!-- Start Footer Section -->
+        <footer class="footer" id="contact">
+            <div class="footer-list">
+                <div class="footer-data">
+                    <h1><a href=""><img src="img/logo.svg"></a></h1>
+                    <div class="footer-data-social">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-data">
+                    <h2>Dirección</h2>
+                    <p>Cl. 47 ##79-39<br> Medellín, Antioquia </p>
+                </div>
+                <div class="footer-data">
+                    <h2>Horarios</h2>
+                    <p>Lunes A Sábado <br> De 09:00 A 18:00</p>
+                </div>
+                <div class="footer-data">
+                    <h2>Contacto</h2>
+                    <p>(+57) 314-000-0000</p>
+                    <p>(+57) 310-000-0000</p>
+                </div>
+            </div>
+            <div class="copy">
+                <p>&copy; Todos los derechos reservados</p>
+                <span>Creado con 🤎 por Liseth Hineztroza</span>
+            </div>
+        </footer>
+        <!-- End Footer Section -->
+        <!-- Javascript File
+            <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+         -->
+         <script src="./js/swiper-bundle.min.js"></script>
+        <script src="./js/main.js"></script>
+</body>
+</html>
